@@ -44,7 +44,7 @@ public class CLI {
                     System.out.println("El gasto energético basal (GEB) es: " + geb);
                     break;
                 default:
-                    System.out.println("Opción no válida.");
+                    System.out.println("La Opción no es válida.");
                     break;
             }
             scanner.close();
