@@ -1,10 +1,9 @@
 package edu.carlos_castillo.reto1.ui;
 
 import java.util.Scanner;
-
 public class CLI {
     public static void showMenu (){
-        public static void main(String[]Object args;) {
+        (String[]Object args;) {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Seleccione una opción: \nA. Cálculo de masa corporal (índice de masa corporal) \nB. Cálculo de masa corporal magra \nC. Cálculo de metabolismo basal (gasto energético basal)");
             String opcion = scanner.nextLine();
