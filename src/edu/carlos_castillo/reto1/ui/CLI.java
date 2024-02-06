@@ -8,10 +8,10 @@ public class CLI {
             System.out.println("Seleccione una opción: \nA. Cálculo de masa corporal (índice de masa corporal) \nB. Cálculo de masa corporal magra \nC. Cálculo de metabolismo basal (gasto energético basal)");
             String opcion = scanner.nextLine();
 
-            System.out.println("Ingrese el peso en kg:");
+            System.out.println("Ingresa el peso en kg:");
             double peso = scanner.nextDouble();
 
-            System.out.println("Ingrese la estatura en cm:");
+            System.out.println("Ingresa la estatura en cm:");
             double estatura = scanner.nextDouble();
 
             switch (opcion.toUpperCase()) {
